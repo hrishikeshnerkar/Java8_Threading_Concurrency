@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class LinkedHashMapApp {
     public static void main(String[] args) {
@@ -28,6 +29,19 @@ public class LinkedHashMapApp {
 
         for (String product : productPrice.keySet()) {
             System.out.println("Product: " + product + ", Price: $" + productPrice.get(product));
+        }
+
+        System.out.println();
+        System.out.println(" Using TreeMap to sort products by name:");
+        Map<String, Double> productPriceTreeMap = new TreeMap<>();
+        productPriceTreeMap.put("Apple", 0.99);
+        productPriceTreeMap.put("Banana", 0.59);
+        productPriceTreeMap.put("Orange", 0.79);
+        productPriceTreeMap.put("Mango", 1.49);
+        productPriceTreeMap.put("Grapes", 2.99);
+
+        for (String product : productPriceTreeMap.keySet()) {
+            System.out.println("Product: " + product + ", Price: $" + productPriceTreeMap.get(product));
         }
     }
 }
