@@ -18,5 +18,18 @@ public class HashMapApp {
         }
 
         System.out.println(capitals.getOrDefault("England", "The capital is not available."));
+
+        capitals.putIfAbsent("India", "China");
+        capitals.remove(null);
+        System.out.println("The following countries can be found in the hashmap");
+
+        for (String country : capitals.keySet()) {
+            System.out.println("-" + country);
+        }
+
+        System.out.println(capitals.size() + " the following capitals can be found in the hashmap");
+        for (String capital : capitals.values()) {
+            System.out.println("-" + capital);
+        }
     }
 }
