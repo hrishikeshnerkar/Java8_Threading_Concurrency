@@ -43,5 +43,6 @@ public class LinkedHashMapApp {
         for (String product : productPriceTreeMap.keySet()) {
             System.out.println("Product: " + product + ", Price: $" + productPriceTreeMap.get(product));
         }
+        System.out.println();
     }
 }
