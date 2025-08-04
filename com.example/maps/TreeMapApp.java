@@ -36,5 +36,9 @@ public class TreeMapApp {
         System.out.println("floor key :" + map.floorKey("Grape"));
         System.out.println("higher key :" + map.higherKey("Grape"));
         System.out.println("ceiling key :" + map.ceilingKey("Grape"));
+
+        System.out.println();
+        System.out.println("The first entry : " + map.firstEntry());
+        System.out.println("The last entry : " + map.lastEntry());
     }
 }
