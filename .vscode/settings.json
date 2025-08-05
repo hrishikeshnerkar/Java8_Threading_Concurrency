@@ -1,10 +1,11 @@
 {
   "java.project.sourcePaths": [
     "com.example/src",
+    "com.example/maps",
     "com.example/enumcoding",
     "com.example/collections",
     "com.example/String",
     "com.example/FileHandling",
-    "com.example/maps"
+    "com.example/streams"
   ]
 }
