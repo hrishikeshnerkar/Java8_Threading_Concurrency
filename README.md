@@ -47,7 +47,6 @@ Welcome to the **Java Advanced Concepts Practice Repository**! This repository i
 
 - **Java SE (JDK 17+)**
 - **IDE**: IntelliJ IDEA / Eclipse / VS Code
-- **Build Tool**: Maven / Gradle (if applicable)
 
 ---
 
@@ -55,7 +54,6 @@ Welcome to the **Java Advanced Concepts Practice Repository**! This repository i
 
 Each topic is organized into folders with:
 - ✅ Code Samples
-- 📄 Concept Notes
 - 🧪 Practice Exercises
 
 ---
@@ -64,7 +62,7 @@ Each topic is organized into folders with:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/java-advanced-practice.git
+   git clone https://github.com/your-username/Java8_Threading_Concurrency.git
    ```
 2. Open the project in your preferred IDE.
 3. Navigate to the topic folder and run the Java files.
@@ -76,3 +74,14 @@ This repository serves as a personal learning archive and a resource for others 
 1. Strengthen their understanding of advanced Java topics
 2. Prepare for technical interviews
 3. Build a foundation for enterprise-level Java development
+
+---
+
+## 👤 Author
+
+**Hrishikesh**  
+Full-stack developer passionate about building secure, scalable, and well-documented web applications.  
+Specialized in Spring Boot, React, and modern authentication flows.  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/hrishikesh015)
+
+---
