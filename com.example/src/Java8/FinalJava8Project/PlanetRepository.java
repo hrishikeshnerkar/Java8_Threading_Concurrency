@@ -1,4 +1,4 @@
-package FinalJava8;
+package Java8.FinalJava8Project;
 
 import java.util.ArrayList;
 
