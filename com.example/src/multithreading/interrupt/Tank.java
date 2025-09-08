@@ -24,8 +24,8 @@ public class Tank {
         if(amount <= Currlevel){
             Currlevel -= amount;
             System.out.println("Consuming "+ amount+ " liters of water. Current level "+ Currlevel);
-//            notify();// If we use this tank is full called for one thread
-            notifyAll(); // But for this tank is full called for both threads
+//            notify();// If we use this "tank is full" called for one thread
+            notifyAll(); // But for this "tank is full" called for both threads
         }
     }
 }
