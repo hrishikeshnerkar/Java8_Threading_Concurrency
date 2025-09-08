@@ -68,3 +68,11 @@ Each topic is organized into folders with:
    ```
 2. Open the project in your preferred IDE.
 3. Navigate to the topic folder and run the Java files.
+
+## 📌 Purpose
+
+This repository serves as a personal learning archive and a resource for others who want to:
+
+1. Strengthen their understanding of advanced Java topics
+2. Prepare for technical interviews
+3. Build a foundation for enterprise-level Java development
